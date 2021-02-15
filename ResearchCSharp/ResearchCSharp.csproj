@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A41B7E22-0586-4D01-9C46-7A1B6F450B91}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ResearchCSharp</RootNamespace>
+    <AssemblyName>ResearchCSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADONET\sqlcmmandexecutenonquerry.cs" />
+    <Compile Include="ADONET\sqlcommandexecutenonquery.cs" />
+    <Compile Include="ADONET\sqlcommandexecutereader.cs" />
+    <Compile Include="ADONET\sqlcommandstorprocedure.cs" />
+    <Compile Include="ADONET\sqlconnection.cs" />
+    <Compile Include="ADONET\sqldataadapter.cs" />
+    <Compile Include="ADONET\sqlmultiresults.cs" />
+    <Compile Include="ARRAYS STRUCTS STRINGS\ArrayBookdatabase.cs" />
+    <Compile Include="ARRAYS STRUCTS STRINGS\ArrayEvenNumbers.cs" />
+    <Compile Include="ARRAYS STRUCTS STRINGS\ArrayPositiveNegative.cs" />
+    <Compile Include="ARRAYS STRUCTS STRINGS\ArrayReverse.cs" />
+    <Compile Include="ARRAYS STRUCTS STRINGS\ArraySort.cs" />
+    <Compile Include="ARRAYS STRUCTS STRINGS\ArraySumNumbers.cs" />
+    <Compile Include="COLLECTION\ArrayClass.cs" />
+    <Compile Include="COLLECTION\ArrayList.cs" />
+    <Compile Include="COLLECTION\HashtableClass.cs" />
+    <Compile Include="COLLECTION\ListClass.cs" />
+    <Compile Include="COLLECTION\StackClass.cs" />
+    <Compile Include="FILE OPERATIONS\Directoryclass.cs" />
+    <Compile Include="FILE OPERATIONS\Fileclass.cs" />
+    <Compile Include="FIRSTCONTACT\AgeAsk.cs" />
+    <Compile Include="FIRSTCONTACT\Averagecalculation.cs" />
+    <Compile Include="FIRSTCONTACT\Div2Numbers.cs" />
+    <Compile Include="FIRSTCONTACT\FirstProgram.cs" />
+    <Compile Include="FIRSTCONTACT\MultiplyUsingVariables.cs" />
+    <Compile Include="FIRSTCONTACT\Sum2Numbers.cs" />
+    <Compile Include="FIRSTCONTACT\TempConversion.cs" />
+    <Compile Include="FIRSTCONTACT\Useof{0}.cs" />
+    <Compile Include="FLOWCONTROL\DisplayWhile.cs" />
+    <Compile Include="FLOWCONTROL\DivideIfNotZero.cs" />
+    <Compile Include="FLOWCONTROL\MultiplyIfNotZero.cs" />
+    <Compile Include="FLOWCONTROL\OddNumbers.cs" />
+    <Compile Include="FLOWCONTROL\Positivenegative.cs" />
+    <Compile Include="FLOWCONTROL\ReeatUntil.cs" />
+    <Compile Include="FLOWCONTROL\TwoNegatives.cs" />
+    <Compile Include="FUNCTIONS\functionArraySum.cs" />
+    <Compile Include="FUNCTIONS\Functiondouble.cs" />
+    <Compile Include="FUNCTIONS\functionreturnngvalue.cs" />
+    <Compile Include="FUNCTIONS\funtionGreetng.cs" />
+    <Compile Include="FUNCTIONS\funtionparameters.cs" />
+    <Compile Include="FUNCTIONS\funtionreference.cs" />
+    <Compile Include="ObjectOrientedDesign\AlbumTest.cs" />
+    <Compile Include="ObjectOrientedDesign\StudentAndTeacher.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="PROGRAMMING EXERCIESES\ARITHMETIC\countarrayitem.cs" />
+    <Compile Include="PROGRAMMING EXERCIESES\ARITHMETIC\countdigits.cs" />
+    <Compile Include="PROGRAMMING EXERCIESES\ARITHMETIC\exchangearray.cs" />
+    <Compile Include="PROGRAMMING EXERCIESES\ARITHMETIC\findArray.cs" />
+    <Compile Include="PROGRAMMING EXERCIESES\ARITHMETIC\FizzfuzzArray.cs" />
+    <Compile Include="PROGRAMMING EXERCIESES\ARITHMETIC\FizzFuzztest.cs" />
+    <Compile Include="PROGRAMMING EXERCIESES\ARITHMETIC\ForloopAdd.cs" />
+    <Compile Include="PROGRAMMING EXERCIESES\ARITHMETIC\largestvalue.cs" />
+    <Compile Include="PROGRAMMING EXERCIESES\ARITHMETIC\MarkevenNumbers.cs" />
+    <Compile Include="PROGRAMMING EXERCIESES\ARITHMETIC\Noofzeros.cs" />
+    <Compile Include="PROGRAMMING EXERCIESES\ARITHMETIC\promptname.cs" />
+    <Compile Include="PROGRAMMING EXERCIESES\ARITHMETIC\squareroo.cs" />
+    <Compile Include="PROGRAMMING EXERCIESES\ARITHMETIC\valuetofind.cs" />
+    <Compile Include="PROGRAMMING EXERCIESES\OPERATORS\DescribingClass.cs" />
+    <Compile Include="PROGRAMMING EXERCIESES\OPERATORS\MultiplesSum.cs" />
+    <Compile Include="PROGRAMMING EXERCIESES\OPERATORS\SomeArithmeticOperators.cs" />
+    <Compile Include="PROGRAMMING EXERCIESES\VARIABLES\classvariable.cs" />
+    <Compile Include="PROGRAMMING EXERCIESES\VARIABLES\VariableAge.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="STRINGS\Stringcompare.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BASIC DATA TYPES\" />
+    <Folder Include="LINQ\LINQ TO XML\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
